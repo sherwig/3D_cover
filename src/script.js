@@ -36,7 +36,7 @@ fontLoader.load(
 
         // Text
         const textGeometry = new THREE.TextBufferGeometry(
-            'Hello Three.js',
+            'Im Sam Herwig',
             {
                 font: font,
                 size: 0.5,
@@ -68,7 +68,7 @@ fontLoader.load(
             const scale = Math.random()
             donut.scale.set(scale, scale, scale)
 
-            scene.add(donut)
+            // scene.add(donut)
         }
     }
 )
@@ -101,9 +101,9 @@ window.addEventListener('resize', () =>
  */
 // Base camera
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 100)
-camera.position.x = 1
-camera.position.y = 1
-camera.position.z = 2
+camera.position.x = 0
+camera.position.y = 0
+camera.position.z = 5
 scene.add(camera)
 
 // Controls
