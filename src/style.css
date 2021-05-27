@@ -9,7 +9,7 @@ body
 {
     /* overflow: hidden; */
     width: 100%;
-    background: white; 
+    background: white;
 }
 
 .webgl
@@ -18,6 +18,6 @@ body
     /* top: 0;
     left: 0; */
     outline: none;
-    width: 800px;
-    height: 600px;
+    width: 100vw;
+    height: 30vw;
 }
